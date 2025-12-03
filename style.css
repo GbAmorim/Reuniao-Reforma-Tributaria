@@ -107,6 +107,11 @@ p {
     letter-spacing: 1px;
 }
 
+.buttons-info {
+    display: flex;
+    gap: 1rem;
+}
+
 .btn-action:hover {
     background-color: #258C73;
     transform: translateY(-2px);
@@ -204,6 +209,12 @@ p {
 @media (max-width: 768px) {
     .header h1 {
         font-size: 1em;
+    }
+
+    .buttons-info {
+        display: flex;
+        gap: 1rem;
+        flex-flow: column;
     }
 
     .hero-section h2 {
