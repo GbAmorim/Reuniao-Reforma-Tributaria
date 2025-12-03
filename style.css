@@ -93,10 +93,13 @@ p {
 
 /* Botão de Ação */
 .btn-action {
-    display: inline-block;
+    display: flex;
     background-color: #1A344A;
     color: white;
     padding: 15px 30px;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
